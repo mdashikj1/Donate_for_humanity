@@ -27,7 +27,7 @@ p {
 }
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(rgb(220, 111, 52), rgb(218, 158, 120));
+  background-image: linear-gradient(rgb(232, 96, 23), rgb(243, 165, 10));
   padding: 10px 40px;
   border-radius: 5px;
   color: aliceblue;
@@ -44,30 +44,46 @@ p {
   border: 10px 20px;
   color: coral;
   border: 2px solid coral;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .gray-p {
   color: grey;
-  font-size: 30px;
+  font-size: 25px;
 }
 span {
-  padding: 25px 30px;
+  padding: 20px 100px;
   color: gray;
 }
-#Donation-Plan {
+.input-box{
+  box-decoration-break: slice;
+}
+.Donation-Plan {
   text-align: center;
   margin: 25px;
   border: 25px;
   padding: 50px;
-  line-height: 50px;
+  line-height: 25px;
 }
-.part-3 {
+.donation-package{
   display: flex;
-  margin-bottom: 150px;
+  max-width: 90%;
+  margin:100px 3%;
 }
-.qatar {
-  width: 30%;
-  padding: 2px;
+#quaoar{
+width: 30%;
+border-radius: 5%;
+padding: 2% 2%;
+margin-left:5%;
+box-shadow:5px 5px 20px gray;
+}
+.quaoar-1{
+  background-color: blanchedalmond;
+}
+.quaoar-2{
+  background-color: bisque;
+}
+.quaoar-3{
+  background-color: blanchedalmond;
 }
 .There-lives {
   display: flex;
