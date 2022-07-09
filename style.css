@@ -8,8 +8,16 @@ h1 {
 h2 {
   font-size: 40px;
 }
+h3{
+  font-size: 30px;
+}
 p {
-  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height:35px;
+}
+img{
+  border-radius: 5%;
 }
 .focus-text {
   font-size: 100px;
@@ -27,11 +35,12 @@ p {
 }
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(rgb(232, 96, 23), rgb(243, 165, 10));
+  background-image: linear-gradient(rgb(232, 87, 25), rgb(242, 124, 81));
   padding: 10px 40px;
   border-radius: 5px;
   color: aliceblue;
   font-size: 25px;
+  line-height:80px;
 }
 .donate-today {
   text-align: center;
@@ -54,7 +63,7 @@ span {
   padding: 20px 100px;
   color: gray;
 }
-.input-box{
+.input-box {
   box-decoration-break: slice;
 }
 .Donation-Plan {
@@ -64,33 +73,56 @@ span {
   padding: 50px;
   line-height: 25px;
 }
-.donation-package{
+.donation-package {
   display: flex;
   max-width: 90%;
-  margin:100px 3%;
+  margin: 100px 3%;
 }
-#quaoar{
-width: 30%;
-border-radius: 5%;
-padding: 2% 2%;
-margin-left:5%;
-box-shadow:5px 5px 20px gray;
+#quaoar {
+  width: 30%;
+  border-radius: 5%;
+  padding: 2% 2%;
+  margin-left: 5%;
+  box-shadow: 5px 5px 20px gray;
 }
-.quaoar-1{
+.quaoar-1 {
   background-color: blanchedalmond;
 }
-.quaoar-2{
+.quaoar-2 {
   background-color: bisque;
 }
-.quaoar-3{
+.quaoar-3 {
   background-color: blanchedalmond;
 }
-.There-lives{
+.There-lives {
   display: flex;
-  max-width: 90%;
 }
 .half-width{
-  max-width: 30%;
+  width: 50%;
+  padding:20px;
+  margin: 50px;
+}
+.half-width img{
+  width: 100%;
+}
+.They-need{
+  display: flex;
+}.half-width1{
+  width: 50%;
+  padding:20px;
+  margin: 50px;
+}
+.half-width1 img{
+  width: 100%;
+}
+.link-button1 {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(235, 120, 54), rgb(233, 89, 81));
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-size: 25px;
+  line-height:80px;
 }
 .My-Updates {
   text-align: center;
@@ -99,9 +131,13 @@ box-shadow:5px 5px 20px gray;
   text-align: center;
 }
 footer {
-  background-color: gray;
+  background-color: rgb(208, 191, 191);
   text-align: center;
-  color: tomato;
+}
+.footer-h{
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  color: chocolate;
 }
 input {
   box-decoration-break: slice;
