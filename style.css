@@ -85,13 +85,12 @@ box-shadow:5px 5px 20px gray;
 .quaoar-3{
   background-color: blanchedalmond;
 }
-.There-lives {
+.There-lives{
   display: flex;
-  margin-bottom: 150px;
+  max-width: 90%;
 }
-.They-need {
-  display: flex;
-  margin-bottom: 150px;
+.half-width{
+  max-width: 30%;
 }
 .My-Updates {
   text-align: center;
