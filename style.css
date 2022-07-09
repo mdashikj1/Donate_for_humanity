@@ -1,17 +1,75 @@
 body{
     font-family: "Roboto", sans-serif;
-    background-color: antiquewhite;
+    background-color:aliceblue;
 }
 .top-background {
-background-image : url(images/donation10.jpg);
+background-image : url(images/donation13.jpg);
 background-repeat: no-repeat;
 background-size: 100%;
-height: 400px;
+height: auto;
 text-align: center;
-color: cornsilk;
-h1{ size: 50px;}
+margin: 2px 2px;
+border-radius: 5px;
+padding: 110px 50px;
+color:aliceblue
 }
-
+h1{
+ font-size: 50px;
+}
+h2{ font-size:35px ;}
+.link-button{
+  text-decoration: none;
+ background-image: linear-gradient(rgb(220, 111, 52),rgb(218, 158, 120));
+ padding: 10px 40px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 25px;
+}
+p{font-size: 25px;}
+.focus-text{
+  font-size: 100px;
+}
+.div-2{
+  text-align: center;
+ line-height: 50px;
+}
+.span-200{
+  border: 10px 20px;
+  color: coral;
+border: 2px solid coral;
+}
+.gray-p{
+  color: grey;
+  font-size: 30px;
+}
+span{
+  padding: 25px 30px;
+color: gray;
+}
+.Donation-Plan{
+  text-align: center;
+  margin: 40px 250px ;
+  padding: 12px 50px;
+  line-height: 50px;
+}
+.part-3{ display: flex;
+  margin-bottom: 150px;}
+.qatar{ width: 30%;
+padding: 2px;}
+.There-lives{
+  display: flex;
+margin-bottom: 150px;
+}
+.They-need{display: flex;
+  margin-bottom: 150px
+}
+.My-Updates{text-align: center;}
+.subscribe{text-align: center;}
 footer{
   background-color: gray;
+  text-align: center;
+  color: tomato;
+}
+input{
+  box-decoration-break: slice;
 }
