@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;600&family=Roboto&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -39,13 +39,23 @@
         <span>100tk</span><span class="span-200">200tk</span><span>500tk</span
         ><span>1000tk</span><span>5000tk</span>
       </p>
-      <input class="input-box" type="text" /><br />
-      <a
-        class="link-button"
-        target="_blank"
-        href="https://www.facebook.com/mdashikj67"
-        >Donate now</a
-      >
+      <br />
+      <form action="/action_page.php">
+        <input
+          class="input-box"
+          type="tk"
+          id="tk"
+          name="tk"
+          placeholder="other amount tk"
+        />
+        <br />
+        <a
+          class="link-button"
+          target="_blank"
+          href="https://www.facebook.com/mdashikj67"
+          >Donate now</a
+        >
+      </form>
     </div>
     <div class="Donation-Plan">
       <h2>Our Donation Plan</h2>
@@ -137,13 +147,28 @@
       <p>subscribe with your email we will email you our every update</p>
     </div>
     <div class="subscribe">
-      <input type="text" name="email" id="" />
-      <input type="button" value="subscribe now" />
+      <form action="/action_page.php">
+        <input
+          class="e-input"
+          type="email"
+          id="email"
+          name="email"
+          placeholder="enter your email"
+        />
+        <a
+          class="subscribe-button"
+          target="_blank"
+          href="https://www.linkedin.com/in/mdashikj67/"
+          >subscribe</a
+        >
+      </form>
     </div>
   </body>
   <footer>
     <h2 class="footer-h">Be Humble</h2>
     <br />
-    <p>don't think to donate do it</p>
+    <p class="s-m">
+      Happiness doesn’t result from what we get, but from what we give.
+    </p>
   </footer>
 </html>

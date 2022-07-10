@@ -8,15 +8,15 @@ h1 {
 h2 {
   font-size: 40px;
 }
-h3{
+h3 {
   font-size: 30px;
 }
 p {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  line-height:35px;
+  line-height: 35px;
 }
-img{
+img {
   border-radius: 5%;
 }
 .focus-text {
@@ -40,7 +40,7 @@ img{
   border-radius: 5px;
   color: aliceblue;
   font-size: 25px;
-  line-height:80px;
+  line-height: 80px;
 }
 .donate-today {
   text-align: center;
@@ -60,12 +60,17 @@ img{
   font-size: 25px;
 }
 span {
-  padding: 20px 100px;
+  padding: 20px 60px;
   color: gray;
 }
 .input-box {
-  box-decoration-break: slice;
-}
+    border: none;
+    border-bottom: 2px solid rgb(163, 162, 162);
+    width: 800px;
+    font-size: 18px;
+   padding-bottom: 5px;
+    text-align: center;
+  }
 .Donation-Plan {
   text-align: center;
   margin: 25px;
@@ -97,22 +102,23 @@ span {
 .There-lives {
   display: flex;
 }
-.half-width{
+.half-width {
   width: 50%;
-  padding:20px;
+  padding: 20px;
   margin: 50px;
 }
-.half-width img{
+.half-width img {
   width: 100%;
 }
-.They-need{
+.They-need {
   display: flex;
-}.half-width1{
+}
+.half-width1 {
   width: 50%;
-  padding:20px;
+  padding: 20px;
   margin: 50px;
 }
-.half-width1 img{
+.half-width1 img {
   width: 100%;
 }
 .link-button1 {
@@ -122,22 +128,46 @@ span {
   border-radius: 5px;
   color: aliceblue;
   font-size: 25px;
-  line-height:80px;
+  line-height: 80px;
 }
 .My-Updates {
   text-align: center;
 }
-.subscribe {
+.subscribe{
   text-align: center;
+  gap:0px;
+}
+.subscribe-button {
+  margin: none;
+  text-decoration: none;
+  background-image: linear-gradient(rgb(227, 45, 28), rgb(177, 50, 43));
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-size: 20px;
+}
+.e-input{
+  border: none;
+  background-color: rgb(226, 209, 209);
+  width: 300px;
+  padding: 8px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  text-align: left;
 }
 footer {
   background-color: rgb(208, 191, 191);
   text-align: center;
 }
-.footer-h{
-  font-family: 'Lobster', cursive;
+.footer-h {
+  font-family: "Lobster", cursive;
   font-size: 50px;
   color: chocolate;
+  padding-top: 40px;
+}
+.s-m {
+  font-size: 30px;
+  padding-bottom: 50px;
 }
 input {
   box-decoration-break: slice;
